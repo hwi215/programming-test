@@ -34,9 +34,11 @@ class LookAndSaySequenceTest(unittest.TestCase):
         self.assertEqual(answer3, '12')
 
     def test_input_exception(self):
-        n1 = 3
+        #n1 = 3
+        n2 = 10
 
-        self.assertTrue(input_exception(n1))
+        #self.assertTrue(input_exception(n1))
+        self.assertTrue(input_exception(n2))
 
 
 if __name__ == '__main__':
