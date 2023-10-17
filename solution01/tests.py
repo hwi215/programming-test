@@ -2,7 +2,6 @@ import unittest
 from sol01 import mapping
 
 
-
 def look_and_say_sequence(n):
     if n == 5:
         return '12'
@@ -10,6 +9,12 @@ def look_and_say_sequence(n):
         return '21'
     else:
         return False
+
+
+def input_exception(n):
+    if n <= 3 or n >= 100:
+        return False
+    return True
 
 
 class LookAndSaySequenceTest(unittest.TestCase):
@@ -27,6 +32,12 @@ class LookAndSaySequenceTest(unittest.TestCase):
         self.assertEqual(answer2, '21')
 
         self.assertEqual(answer3, '12')
+
+    def test_input_exception(self):
+        n1 = 3
+
+        self.assertTrue(input_exception(n1))
+
 
 if __name__ == '__main__':
     unittest.main()
