@@ -11,7 +11,7 @@ cd solution01
 2. 코드 실행 
 ```
 python sol01.py
-python sol01.py
+python sol02.py
 python tests.py
 ``` 
 
