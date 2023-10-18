@@ -19,7 +19,7 @@ spring:
 
 ## 프로젝트 실행 방법
  
-1. solution01 폴더로 이동
+1. solution02 폴더로 이동
 ```
 cd solution02 
 ```
@@ -40,12 +40,10 @@ java -jar solution02-0.0.1-SNAPSHOT.jar
   - 요청 인자에 해당하는 데이터 조회하기
 
 ### RequestDto 구현 사항
-- [X] 요청 인자를 Json 형식으로 전달받아 처리하는 RequestFoodDto 
-- [ ] RequestDto 유효성 체크
+- [X] 요청 인자를 Json 형식으로 전달받아 처리하는 RequestFoodDto  
 
 ### ResponseDto 구현 사항
-- [X] 요청 인자에 해당하는 데이터를 출력하기 위한 ResponseFoodDto
-- [ ] ResponseDto 유효성 체크
+- [X] 요청 인자에 해당하는 데이터를 출력하기 위한 ResponseFoodDto 
 
 ### API 구현 사항 
 - [X] 요청 인자(Json 형식)를 Request Dto로 변환 
@@ -64,7 +62,7 @@ java -jar solution02-0.0.1-SNAPSHOT.jar
 
 ### 문서 작성
 - [X] API 문서 작성
-- [ ] SQL 파일 또는 실행 파일 작성
+- [X] SQL 파일 또는 실행 파일 작성
 
 ## API 테스트
 
