@@ -1,5 +1,20 @@
 # 2. API 구현 문제
 
+## 프로젝트 실행 전 DB 설정하기
+src/main/resource 폴더 안에 application-info.yml 파일 생성
+
+```
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/[DB이름]?serverTimezone=UTC&characterEncoding=UTF-8
+    username: [DB계정명]
+    password: [DB계정 비밀번호]
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+```
+
+
+
 ## 프로젝트 실행 방법
  
 1. solution01 폴더로 이동
