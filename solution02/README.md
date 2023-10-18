@@ -1,5 +1,18 @@
 # 2. API 구현 문제
 
+## 프로젝트 실행 방법
+```
+
+// solution01 폴더로 이동
+cd solution02 
+
+// build 및 실행
+./gradlew build
+cd ./build/libs
+java -jar solution02-0.0.1-SNAPSHOT.jar
+
+``` 
+
 ## 기능 요구사항
 
 ### 프로그램 기능 조건
