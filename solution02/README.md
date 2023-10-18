@@ -50,4 +50,4 @@ java -jar solution02-0.0.1-SNAPSHOT.jar
 - [ ] SQL 파일 또는 실행 파일 작성
 
 ## API 테스트
-<img width="930" alt="food_api_test" src="https://github.com/hwi215/programming-test/assets/56347876/54bccaed-5d61-4c02-8218-75636abced29">
+<img width="930" alt="food_api_test" src="https://github.com/hwi215/programming-test/assets/56347876/6202badc-78eb-4a35-8e7e-95fb6a3425a0">
