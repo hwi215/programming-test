@@ -1,5 +1,19 @@
 # 1. 알고리즘 문제(look and say sequence, 개미 수열)
 
+## 프로젝트 실행 방법
+```
+
+// solution01 폴더로 이동
+cd solution01
+
+// 코드 실행 
+python sol01.py
+python sol01.py
+python tests.py
+
+
+``` 
+
 ## 기능 요구사항
 
 ### 프로그램 기능 조건
