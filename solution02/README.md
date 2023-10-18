@@ -33,3 +33,6 @@
 ### 문서 작성
 - [X] API 문서 작성
 - [ ] SQL 파일 또는 실행 파일 작성
+
+## API 테스트
+<img width="930" alt="food_api_test" src="https://github.com/hwi215/programming-test/assets/56347876/54bccaed-5d61-4c02-8218-75636abced29">
