@@ -8,11 +8,11 @@
   - 요청 인자에 해당하는 데이터 조회하기
 
 ### RequestDto 구현 사항
-- [ ] 요청 인자를 Json 형식으로 전달받아 처리하는 FoodRequestDto 
-- [ ] RequestDto 유효성 체크
+- [ ] 요청 인자를 Json 형식으로 전달받아 처리하는 RequestFoodDto 
+- [ ] 정 유효성 체크
 
 ### ResponseDto 구현 사항
-- [ ] 요청 인자에 해당하는 데이터를 출력하기 위한 FoodResponseDto
+- [ ] 요청 인자에 해당하는 데이터를 출력하기 위한 ResponseFoodDto
 - [ ] ResponseDto 유효성 체크
 
 ### API 구현 사항 
