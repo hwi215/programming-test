@@ -9,14 +9,16 @@
 
 ### RequestDto 구현 사항
 - [ ] 요청 인자를 Json 형식으로 전달받아 처리하는 RequestFoodDto 
-- [ ] 정 유효성 체크
+- [ ] RequestDto 유효성 체크
 
 ### ResponseDto 구현 사항
 - [ ] 요청 인자에 해당하는 데이터를 출력하기 위한 ResponseFoodDto
 - [ ] ResponseDto 유효성 체크
 
 ### API 구현 사항 
-- [ ] 요청 인자(Json 형식)를 Request Dto로 변환
+- [ ] 요청 인자(Json 형식)를 Request Dto로 변환 
+- [ ] 조건에 해당하는 음식 정보 조회 기능 구현
+- [ ] 조회한 음식 정보를 ResponseDto 형식으로 변환
 - [ ] ResponseDto를 Json으로 변환 
  
 
