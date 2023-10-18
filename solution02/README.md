@@ -1,7 +1,7 @@
 # 2. API 구현 문제
 
 ## 프로젝트 실행 전 DB 설정하기
-src/main/resource 폴더 안에 application-info.yml 파일 생성
+1. src/main/resource 폴더 안에 application-info.yml 파일 생성
 
 ```
 spring:
@@ -12,6 +12,8 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
 
 ```
+2. [SQL 파일 및 Data 파일](https://github.com/hwi215/programming-test/tree/main/data)
+
 
 
 
