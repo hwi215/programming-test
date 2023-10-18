@@ -25,7 +25,7 @@ public class FoodController {
      */
     @PostMapping("/foods")
     @ResponseBody
-    public List<ResponseFoodDto> getInfo(@RequestBody RequestFoodDto dto){
+    public List<ResponseFoodDto> getFoodInfo(@RequestBody RequestFoodDto dto){
 
         List<ResponseFoodDto> foodDtoList = foodService.getFoodList(dto);
 
