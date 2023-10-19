@@ -45,9 +45,9 @@ public class Food {
     private String 내용량_단위;
 
     //@Column(name = "총 내용량g")
-    private String 총_내용량g;
+    private String 총내용량g;
     //@Column(name = "총 내용량mL")
-    private String 총_내용량mL;
+    private String 총내용량mL;
     private String calorie;
     private String 수분;
     @Column(columnDefinition = "TEXT")
@@ -71,14 +71,19 @@ public class Food {
 
     //@Column(name = "총 식이섬유")
     private String 총식이섬유;
+    @Column(columnDefinition = "TEXT")
     private String 칼슘;
+    @Column(columnDefinition = "TEXT")
     private String 철mg;
     private String 철;
+    @Column(columnDefinition = "TEXT")
     private String 마그네슘;
+    @Column(columnDefinition = "TEXT")
     private String 인;
     private String 칼륨;
     private String salt;
     private String 아연;
+    //@Column(columnDefinition = "TEXT")
     private String 구리;
     private String 망간;
     private String 셀레늄;
@@ -118,6 +123,7 @@ public class Food {
     private String 시스테인;
     private String 알라닌;
     private String 아스파르트산;
+    //@Column(columnDefinition = "TEXT")
     private String 글루탐산;
     private String 글리신;
     private String 프롤린;
@@ -141,10 +147,10 @@ public class Food {
     private String 가돌레산;
     private String 리놀레산;
 
-    //@Column(name = "알파 리놀렌산")
+    //@Column(name = "알파 리놀렌산", columnDefinition = "TEXT")
     private String 알파_리놀렌산;
 
-    //@Column(name = "감마 리놀렌산")
+    //@Column(name = "감마 리놀렌산", columnDefinition = "TEXT")
     private String 감마_리놀렌산;
 
     private String 에이코사디에노산;
