@@ -53,12 +53,11 @@ java -jar solution02-0.0.1-SNAPSHOT.jar
  
 
 ### Exception 구현 사항
-- [ ] 요청 인자를 제대로 전달받지 못한 경우
+- [X] 조회 결과가 없을 경우 Not found(404) 
+
 
 ### 테스트 구현 사항
 - [X] DB 조회 기능 검증
-- [ ] ResponseDto 유효성 검증
-- [ ] ResponseDto 유효성 검증
 
 ### 문서 작성
 - [X] API 문서 작성
@@ -68,11 +67,15 @@ java -jar solution02-0.0.1-SNAPSHOT.jar
 
 - [API문서](https://github.com/hwi215/programming-test/tree/main/docs)
 
-- 조회 성공
+- 조회 성공(POST)
 <img width="990" alt="food_200" src="https://github.com/hwi215/programming-test/assets/56347876/8710754f-7a72-4d3f-a333-739d4028de36">
 
-- 조회 실패(해당 데이터가 존재하지 않는 경우)
+- 조회 실패(해당 데이터가 존재하지 않는 경우, POST)
 <img width="1118" alt="food_404" src="https://github.com/hwi215/programming-test/assets/56347876/843a2753-b1ac-4e5e-964b-21c44ab1236b">
+
+- 조회 성공(GET)
+<img width="1011" alt="food_get" src="https://github.com/hwi215/programming-test/assets/56347876/5516d548-04f5-4c31-a5cb-49c0d945cebc">
+
 
 
 ## Reference
