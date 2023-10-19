@@ -3,8 +3,8 @@ package com.sakak.solution02.food.service;
 import com.sakak.solution02.food.dto.RequestFoodDto;
 import com.sakak.solution02.food.dto.ResponseFoodDto;
 import com.sakak.solution02.food.entity.Food;
-import com.sakak.solution02.food.exception.ExceptionEnum;
-import com.sakak.solution02.food.exception.ApiException;
+import com.sakak.solution02.food.global.exception.ExceptionEnum;
+import com.sakak.solution02.food.global.exception.FoodNotFoundException;
 import com.sakak.solution02.food.repository.FoodRepository;
 import com.sakak.solution02.food.repository.FoodSpecification;
 import lombok.RequiredArgsConstructor;
@@ -53,8 +53,9 @@ public class FoodService {
 
         // 예외 처리
         if(foodList.isEmpty()){
-            throw new ApiException(ExceptionEnum.FOOD_NOT_EXIST_EXCEPTION);
+            throw new FoodNotFoundException(ExceptionEnum.FOOD_NOT_EXIST_EXCEPTION);
         }
+
 
         // ResponseDto에 따라 데이터 가공
         List<ResponseFoodDto> dtoList = new ArrayList<>();
