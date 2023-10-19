@@ -3,6 +3,8 @@ package com.sakak.solution02.food.service;
 import com.sakak.solution02.food.dto.RequestFoodDto;
 import com.sakak.solution02.food.dto.ResponseFoodDto;
 import com.sakak.solution02.food.entity.Food;
+import com.sakak.solution02.food.exception.ExceptionEnum;
+import com.sakak.solution02.food.exception.ApiException;
 import com.sakak.solution02.food.repository.FoodRepository;
 import com.sakak.solution02.food.repository.FoodSpecification;
 import lombok.RequiredArgsConstructor;
@@ -27,6 +29,7 @@ public class FoodService {
     @Transactional
     public List<ResponseFoodDto> getFoodList(RequestFoodDto dto){
 
+
         // food_name
         Specification<Food> spec = Specification.where(FoodSpecification.equalFoodName(dto.getFood_name()));
 
@@ -47,6 +50,11 @@ public class FoodService {
 
         // 조건에 해당하는 음식 정보 조회
         List<Food> foodList = foodRepository.findAll(spec);
+
+        // 예외 처리
+        if(foodList.isEmpty()){
+            throw new ApiException(ExceptionEnum.FOOD_NOT_EXIST_EXCEPTION);
+        }
 
         // ResponseDto에 따라 데이터 가공
         List<ResponseFoodDto> dtoList = new ArrayList<>();
