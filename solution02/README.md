@@ -65,7 +65,7 @@ java -jar solution02-0.0.1-SNAPSHOT.jar
 
 ## API 테스트
 
-- [API문서](https://github.com/hwi215/programming-test/tree/main/docs)
+- [API문서](https://documenter.getpostman.com/view/19111266/2s9YR9aDPY)
 
 - 조회 성공(POST)
 <img width="990" alt="food_200" src="https://github.com/hwi215/programming-test/assets/56347876/8710754f-7a72-4d3f-a333-739d4028de36">
