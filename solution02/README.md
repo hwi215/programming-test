@@ -63,19 +63,9 @@ java -jar solution02-0.0.1-SNAPSHOT.jar
 - [X] API 문서 작성
 - [X] SQL 파일 또는 실행 파일 작성
 
-## API 테스트
+## API 문서
 
 - [API문서](https://documenter.getpostman.com/view/19111266/2s9YR9aDPY)
-
-- 조회 성공(POST)
-<img width="990" alt="food_200" src="https://github.com/hwi215/programming-test/assets/56347876/8710754f-7a72-4d3f-a333-739d4028de36">
-
-- 조회 실패(해당 데이터가 존재하지 않는 경우, POST)
-<img width="1118" alt="food_404" src="https://github.com/hwi215/programming-test/assets/56347876/843a2753-b1ac-4e5e-964b-21c44ab1236b">
-
-- 조회 성공(GET)
-<img width="1011" alt="food_get" src="https://github.com/hwi215/programming-test/assets/56347876/5516d548-04f5-4c31-a5cb-49c0d945cebc">
-
 
 
 ## Reference
