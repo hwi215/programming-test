@@ -1,4 +1,4 @@
-package com.sakak.solution02.food.exception;
+package com.sakak.solution02.food.global.exception;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
