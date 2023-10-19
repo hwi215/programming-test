@@ -12,7 +12,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
 
 ```
-2. [SQL 파일 및 Data 파일](https://github.com/hwi215/programming-test/tree/main/data)
+2. [SQL 파일](https://github.com/hwi215/programming-test/tree/main/data)
 
 
 
