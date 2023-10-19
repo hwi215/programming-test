@@ -68,4 +68,16 @@ java -jar solution02-0.0.1-SNAPSHOT.jar
 
 - [API문서](https://github.com/hwi215/programming-test/tree/main/docs)
 
-<img width="930" alt="food_api_test" src="https://github.com/hwi215/programming-test/assets/56347876/6202badc-78eb-4a35-8e7e-95fb6a3425a0">
+- 조회 성공
+<img width="990" alt="food_200" src="https://github.com/hwi215/programming-test/assets/56347876/8710754f-7a72-4d3f-a333-739d4028de36">
+
+- 조회 실패(해당 데이터가 존재하지 않는 경우)
+<img width="1118" alt="food_404" src="https://github.com/hwi215/programming-test/assets/56347876/843a2753-b1ac-4e5e-964b-21c44ab1236b">
+
+
+## Reference
+
+- [REST API 관련](https://meetup.nhncloud.com/posts/92)
+- [HTTP Status Code 관련](https://atoz-developer.tistory.com/121)
+
+
