@@ -19,7 +19,7 @@ public class PostFoodTest extends BaseControllerTest {
 
         String content = objectMapper.writeValueAsString(new RequestFoodDto("닭갈비", "2019", "전국(대표)", "D000007"));
 
-        mockMvc.perform(post("/foods")
+        mockMvc.perform(post("/v1/foods")
                         .content(content)
                         .contentType(MediaType.APPLICATION_JSON)
                         .accept(MediaType.APPLICATION_JSON))
@@ -35,7 +35,7 @@ public class PostFoodTest extends BaseControllerTest {
 
         String content = objectMapper.writeValueAsString(new RequestFoodDto("닭갈비2", "2019", "전국(대표)", "D000007"));
 
-        mockMvc.perform(post("/foods")
+        mockMvc.perform(post("/v1/foods")
                         .content(content)
                         .contentType(MediaType.APPLICATION_JSON)
                         .accept(MediaType.APPLICATION_JSON))

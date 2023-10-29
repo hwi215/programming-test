@@ -18,7 +18,7 @@ public class GetFoodTest extends BaseControllerTest {
 
         mockMvc
                 .perform(
-                        get("/foods") // url
+                        get("/v1/foods") // url
                                 .param("food_name", "닭갈비") // parameter 1
                                 .param("research_year", "2019") // parameter 2
                                 .param("maker_name", "전국(대표)") // parameter 3
@@ -38,7 +38,7 @@ public class GetFoodTest extends BaseControllerTest {
         // api 요청
         mockMvc
                 .perform(
-                        get("/foods") // url
+                        get("/v1/foods") // url
                                 .param("food_name", "닭갈비2") // parameter 1
                                 .param("research_year", "2019") // parameter 2
                                 .param("maker_name", "전국(대표)") // parameter 3

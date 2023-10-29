@@ -20,9 +20,9 @@ public class FoodController {
 
     /**
      * 음식 정보 조회
-     * POST: /foods
+     * POST: /v1/foods
      */
-    @PostMapping("/foods")
+    @PostMapping("/v1/foods")
     @ResponseBody
     public ResponseEntity<BaseResponseDto<List<ResponseFoodDto>>> getFoodInfo(@RequestBody RequestFoodDto dto){
 
@@ -34,9 +34,9 @@ public class FoodController {
 
     /**
      * 음식 정보 조회
-     * Get: /foods
+     * Get: /v1/foods
      */
-    @GetMapping("/foods")
+    @GetMapping("/v1/foods")
     @ResponseBody
     public ResponseEntity<BaseResponseDto<List<ResponseFoodDto>>> getFoodInfo(@RequestParam("food_name") String food_name,
                                                                               @RequestParam("research_year") String research_year,
