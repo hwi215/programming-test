@@ -59,7 +59,7 @@ java -jar solution02-0.0.1-SNAPSHOT.jar
 ### 테스트 구현 사항
 - [X] DB 조회 기능 검증
 - [X] API(Get Method) 검증
-- [ ] API(Post Method) 검증
+- [X] API(Post Method) 검증
 
 ### 문서 작성
 - [X] API 문서 작성
