@@ -13,6 +13,21 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 public class PostFoodTest extends BaseControllerTest {
 
+    @Test
+    @DisplayName("음식 정보 조회 Post Method Test")
+    public void 음식_정보_조회_POST() throws Exception {
+
+        String content = objectMapper.writeValueAsString(new RequestFoodDto("닭갈비", "2019", "전국(대표)", "D000007"));
+
+        mockMvc.perform(post("/foods")
+                        .content(content)
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .accept(MediaType.APPLICATION_JSON))
+                .andDo(print()) // api 수행내역 로그 출력
+                .andExpect(status().isOk()) // response status 200 검증
+                .andExpect(jsonPath("code").value("200")) // response code 데이터 검증
+                .andExpect(jsonPath("message").value("success")); // response message 데이터 검증
+    }
 
     @Test
     @DisplayName("음식 정보 조회 실패 Post Method Test")
